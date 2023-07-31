@@ -1,0 +1,35 @@
+.userlist-main{
+    display: flex;
+    flex:4;
+    margin: 40px;
+}
+.UsersList-div-img{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.UsersList-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 3px;
+    
+}
+.UsersList-link{
+    text-decoration: none;
+    color: #000;
+}
+.UsersList-editbtn{
+    padding: 5px 10px;
+    margin-right: 10px;
+    border:none;
+    background-color: #3bb077;
+    color:#fff;
+    border-radius: 5px;
+}
+.UsersList-icon{
+color: red;
+margin-left: 10px;
+
+}

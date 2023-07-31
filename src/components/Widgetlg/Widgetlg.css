@@ -1,0 +1,47 @@
+.Widgetlg-container{
+    flex:2;
+    box-shadow: 0 0 15px -10px rgb(0, 0, 0,0.75);
+    margin-left: 10px;
+    padding: 20px;
+    height:100%;
+
+
+}
+.Widgetlg-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.Widgetlg-table{
+    width: 100%;
+    border-spacing: 20px;
+    
+}
+.Widgetlg-th{
+    text-align: left;
+
+}
+.Widgetlg-td{
+    display: flex;
+    align-items: center;
+}
+.Widgetlg-td-span{
+    margin-left: 15px;
+}
+.Widgetlg-btn{
+    border:none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.Widgetlg-btn.Approved{
+    color: #3bb077;
+    background-color: #e5faf2;
+}
+.Widgetlg-btn.Declined{
+    color: #d95087;
+    background-color: #fff0f1;
+}
+.Widgetlg-btn.Pending{
+    color: #2a7ade;
+    background-color: #ebf1fe;
+}

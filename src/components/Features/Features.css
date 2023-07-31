@@ -1,0 +1,33 @@
+.Features-container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px -10px rgb(0, 0, 0 , 0.75);
+    padding: 40px;
+    border-radius: 5px;
+    width: 20%;
+    justify-content: space-between;
+
+}
+.Features-items{
+    display: flex;
+    align-items: center;
+
+}
+.Features-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.Features-money{
+    margin-right: 15px;
+    font-weight: 700;
+    font-size: 26px;
+}
+.Features-icondown{
+    color: red;
+}
+.Features-iconup{
+    color: green;
+}
+.Features-compaired{
+    color: rgb(126, 126, 126);
+}

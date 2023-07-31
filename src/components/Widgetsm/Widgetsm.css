@@ -1,0 +1,46 @@
+.Widgetsm-container{
+    flex:1;
+    box-shadow: 0 0 15px -10px rgb(0, 0, 0,0.75);
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    height: 100%;
+
+}
+.Widgetsm-memcon{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+}
+.Widgetsm-li{
+    display: flex;
+    align-items: center;justify-content: space-between;
+}
+.Widgetsm-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.Widgetsm-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+.Widgetsm-name1{
+    font-weight: 650;
+}
+.Widgetsm-job{
+    color:#555
+}
+.Widgetsm-btn{
+    border: none;
+    padding: 5px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.Widgetsm-icon{
+    font-size: 16px;
+}

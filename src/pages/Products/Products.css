@@ -1,0 +1,36 @@
+.Products-container{
+    display: flex;
+    flex:4;
+    margin: 40px;
+}
+.Products-div-img{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.Products-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 3px;
+    
+}
+.Products-link{
+    text-decoration: none;
+    color: #000;
+}
+.Products-editbtn{
+    padding: 5px 10px;
+    margin-right: 10px;
+    border:none;
+    background-color: #3bb077;
+    color:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Products-icon{
+color: red;
+margin-left: 10px;
+
+}
